@@ -1,5 +1,7 @@
 # Introduction
-This project shows how to achieve communication between Unity3D (C#) and Python code by using [ROS#](https://github.com/siemens/ros-sharp) in Ubuntu. The source project is written by MATLAB Eigine, so this project also shows how to construct a [communication between Python and MATLAB](https://github.com/Varun-Haris/Vanishing-point-estimation-code).    
+This project shows how to achieve communication between Unity3D (C#) and Python code by using [ROSBridge](http://wiki.ros.org/rosbridge_suite) in Ubuntu. The source project is written by MATLAB Eigine, so this project also shows how to construct a [communication between Python and MATLAB](https://github.com/Varun-Haris/Vanishing-point-estimation-code).    
+
+ROSbridge provides a JSON API to ROS functionality for non-ROS programs. There are a variety of front ends that interface with rosbridge, including a WebSocket server for web browsers to interact with. Rosbridge_suite is a meta-package containing rosbridge, various front end packages for rosbridge like a WebSocket package, and helper packages.
 
 ![ss1.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss1.png)
 
