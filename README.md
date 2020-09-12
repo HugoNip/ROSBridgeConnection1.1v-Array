@@ -41,13 +41,13 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 #### ROS Bridge Client has added into Unity3D successfully
 ![ss17.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss17.png)
 
-### Step4: Move VpDataSubscriber.cs into [RosCommuncation](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation) directory
+### Step3: Move VpDataSubscriber.cs into [RosCommuncation](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation) directory
 ![ss5.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss5.png)
 
-### Step5: Add components Ros Connector and Vp Data Subscriber for RosConnector4Unity3D 
+### Step4: Add components Ros Connector and Vp Data Subscriber for RosConnector4Unity3D 
 ![ss6.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss6.png)
 
-### Step6: Run WEB socket to get the Ros Bridge Server Url for Ros Connector
+### Step5: Run WEB socket to get the Ros Bridge Server Url for Ros Connector
 ```
 open a new terminal (do not close it)
 ~$ roscore
@@ -59,7 +59,7 @@ open a new terminal (do not close it)
 ![ss9.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss9.png)
 
 
-### Step7: Look for the TOPIC NAME in vptalker.py and fill it in Topic of Vp Data Subscriber 
+### Step6: Look for the TOPIC NAME in vptalker.py and fill it in Topic of Vp Data Subscriber 
 ![ss8.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss8.png)
 
 ## Part3: Starting communication
