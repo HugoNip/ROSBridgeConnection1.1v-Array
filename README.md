@@ -17,7 +17,7 @@ ROSbridge provides a JSON API to ROS functionality for non-ROS programs. There a
 **ROS Noetic for Ubuntu 20.04** may be ***not*** one of the best way to run this code, because the MATLAB Engine with the current latest version, i.e., R2020a, for Python supports Python version 2.7, 3.6, and 3.7, but the version of Python in Ubuntu 20.04 is 3.8. You can open the file with name of "setup.py" for checking.   
 The **setup.py** file locates in the directory: _/path/to/MATLAB/installation/path/R2020a/extern/engines/python/_   
 
-To make MATLAB Eigine supports python, please configure it first by implementing
+To make MATLAB Eigine supports python, please make a configuration firstly by implementing
 ```
 ~$ python/python2/python3 setup.py
 ```
