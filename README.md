@@ -79,7 +79,7 @@ source ./devel/setup.bash
 rosrun test_tutorial vptalker.py
 ```
 
-### Step2: Play Unity3D scene (Subscriber) and show the results
+### Step2: Play Unity3D scene (Subscriber) and get the results
 #### Unity3D panel
 ![ss13.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss13.png)
 #### Terminal
