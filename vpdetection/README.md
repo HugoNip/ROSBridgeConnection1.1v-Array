@@ -1,4 +1,27 @@
-# Results output from .py file
+## Some commands
+```
+Building your nodes:
+~$ cd ~/catkin_ws
+~$ catkin_make
+
+RUN ROS NODE:
+~$ cd ~/catkin_ws
+~$ catkin_make
+~$ source ./devel/setup.bash
+~$ rosrun test_tutorial vptalker.py
+
+Using rqt_graph:
+~$ rosrun rqt_graph rqt_graph
+
+#Run WEB socket
+~$ roslaunch rosbridge_server rosbridge_websocket.launch
+
+#EDITAR bashrc
+~$ gedit ~/.bashrc
+~$ source ~/.bashrc
+```
+
+## Results output from vptalker.py
 ```
 =============== Process img1.jpg!! ======================
 vanishing points estimation!Elapsed time is 1.223450 seconds.
