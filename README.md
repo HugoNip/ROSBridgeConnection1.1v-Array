@@ -71,7 +71,7 @@ open a new terminal (do not close it)
 ![ss8.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss8.png)
 
 ## Part3: Starting communication
-### Step1: RUN ROS NODE:
+### Step1: Run ROS Node (Publisher)
 ```
 cd ~/catkin_ws
 catkin_make
@@ -79,7 +79,7 @@ source ./devel/setup.bash
 rosrun test_tutorial vptalker.py
 ```
 
-### Step2: Play Unity3D scene and show the results
+### Step2: Play Unity3D scene (Subscriber) and show the results
 #### Unity3D panel
 ![ss13.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss13.png)
 #### Terminal
