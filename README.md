@@ -31,7 +31,7 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 ### Step2: Get the [ROS#](https://github.com/siemens/ros-sharp)
 ### Step3: Add [RosSharp](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets) into Unity3D Assets directory
 ### Step4: Move VpDataSubscriber.cs into [RosCommuncation](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation) directory
-### Step5: Add components RosConnector and VpDataSubscriber for RosConnector4Unity3D
+### Step5: Add components Ros Connector (Script) and Vp Data Subscriber (Script) for RosConnector4Unity3D 
 ### Step6: Run WEB socket to get the Ros Bridge Server Url for Ros Connector
 ```
 open a new terminal
@@ -40,8 +40,11 @@ open a new terminal
 open a new terminal
 ~$ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
-Ros Bridge Server Url: localhost (ROS_MASTER_URI=http://localhost:11311)  
+#### Ros Bridge Server Url: localhost (ROS_MASTER_URI=http://localhost:11311)  
 ![ss2.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss2.png)
+
+
+### Step7: Look for the TOPIC name in vptalker.py and fill in Topic for Vp Data Subscriber 
 
 ## Part3: Starting detection
 
