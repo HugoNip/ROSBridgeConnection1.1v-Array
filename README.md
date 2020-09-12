@@ -12,4 +12,3 @@
 [tutorial source](https://www.youtube.com/watch?v=lVa_bb0UFMs&ab_channel=bryansgue)  
 [rossharp](https://github.com/siemens/ros-sharp)  
 [rosbridge](http://wiki.ros.org/rosbridge_suite)  
-[rbcpp](https://github.com/HugoNip/rbcpp)
