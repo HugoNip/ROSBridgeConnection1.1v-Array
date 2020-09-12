@@ -14,8 +14,7 @@ ROSbridge provides a JSON API to ROS functionality for non-ROS programs. There a
 6. [MATLAB code](https://github.com/wgchoi/eccv_indoor)   
 
 ### NOTE: 
-ROS Noetic for Ubuntu 20.04 may be not one of the best way to run this code, because the MATLAB Engine with the current latest version, i.e., R2020a, for Python supports Python version 2.7, 3.6, and 3.7, but the version of Python in Ubuntu 20.04 is 3.8.   
-You can open the file with name of "setup.py" for checking. The setup.py file locates in the directory: 
+ROS Noetic for Ubuntu 20.04 may be not one of the best way to run this code, because the MATLAB Engine with the current latest version, i.e., R2020a, for Python supports Python version 2.7, 3.6, and 3.7, but the version of Python in Ubuntu 20.04 is 3.8. You can open the file with name of "setup.py" for checking. The setup.py file locates in the directory: 
 ```
 /path/to/MATLAB/installation/path/R2020a/extern/engines/python/
 ```
