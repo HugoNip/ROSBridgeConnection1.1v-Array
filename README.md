@@ -34,10 +34,10 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 ### Step5: Add components Ros Connector and Vp Data Subscriber for RosConnector4Unity3D 
 ### Step6: Run WEB socket to get the Ros Bridge Server Url for Ros Connector
 ```
-open a new terminal
+open a new terminal (do not close it)
 ~$ roscore
 
-open a new terminal
+open a new terminal (do not close it)
 ~$ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
 #### Ros Bridge Server Url: localhost (ROS_MASTER_URI=http://localhost:11311)  
@@ -46,7 +46,16 @@ open a new terminal
 
 ### Step7: Look for the TOPIC name in vptalker.py and fill in Topic for Vp Data Subscriber 
 
-## Part3: Starting detection
+## Part3: Starting communication
+### Step1: RUN ROS NODE:
+```
+cd ~/catkin_ws
+catkin_make
+source ./devel/setup.bash
+rosrun test_tutorial vptalker.py
+```
+
+### Step2: Play Unity3D scene
 
 # Reference
 [C# Script Templates](https://mega.nz/#!dsQ01CYa!llVkuQ-JhW9SlOwNBHMlKuv215Mks-DX1BO2g8hqdsg)    
