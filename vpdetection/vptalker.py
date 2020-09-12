@@ -7,8 +7,8 @@ from std_msgs.msg import Float64MultiArray
 
 def vptalker():
     eng = matlab.engine.start_matlab()
-    codeDir = "/data/KProject/eccv_indoor-master/UIUC_Varsha/SpatialLayout/spatiallayoutcode/"
-    imgDir = "/data/KProject/eccv_indoor-master/data/"
+    codeDir = "/path/to/MATLAB/Code/UIUC_Varsha/SpatialLayout/spatiallayoutcode/"
+    imgDir = "/path/to/image/data/" # Image name: img1.jpg, img2.jpg, img3.jpg, img4.jpg, ...
     workDir = "/data/KProject/eccv_indoor-master/vanishingPoint/"
 
     ## Start ROS node
@@ -23,13 +23,11 @@ def vptalker():
 
     while not rospy.is_shutdown() and i < 6:
         imageName = "img"+str(i)+".jpg"
-        i+=1
-
         (boxlayout, surface_labels, resizefactor, vpdata) = eng.getspatiallayout(imgDir, imageName, workDir, nargout=4)
+        i+=1
         
         pos_msg = Float64MultiArray()
         pos_msg.data = (vpdata['vp'][0][0], vpdata['vp'][0][1], vpdata['vp'][1][0], vpdata['vp'][1][1], vpdata['vp'][2][0], vpdata['vp'][2][1])
-
         pub.publish(pos_msg)
         rospy.loginfo('SEND DATA: \n%s', pos_msg)
 
