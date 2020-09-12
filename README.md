@@ -28,8 +28,15 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 
 ## Part2: Unity3D Node as a subscriber
 ### Step1: Create a new Unity3D Scene, and create the RosConnector4Unity3D (empty GameObject)
-### Step2: Get the [ROS#](https://github.com/siemens/ros-sharp)
+![ss3.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss3.png)
+
+### Step2: Download the [ROS#](https://github.com/siemens/ros-sharp)
+```
+git clone https://github.com/siemens/ros-sharp.git
+```
+
 ### Step3: Add [RosSharp](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets) into Unity3D Assets directory
+
 ### Step4: Move VpDataSubscriber.cs into [RosCommuncation](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation) directory
 ### Step5: Add components Ros Connector and Vp Data Subscriber for RosConnector4Unity3D 
 ### Step6: Run WEB socket to get the Ros Bridge Server Url for Ros Connector
