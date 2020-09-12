@@ -30,13 +30,7 @@ namespace RosSharp.RosBridgeClient
             isMessageReceived = true;
         }
 
-        private void ProcessMessage()
-        {
-            /* 
-            PublishedTransform.position = position;
-            PublishedTransform.rotation = rotation;
-             */
-        }
+        private void ProcessMessage() {}
 
         private Vector2 GetData1(MessageTypes.Std.Float64MultiArray message)
         {
