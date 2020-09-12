@@ -1,7 +1,7 @@
 # Introduction
-This project shows how to achieve communication between Unity3D (C#) and Python code by using [ROSBridge](http://wiki.ros.org/rosbridge_suite) in Ubuntu. The source project is written by MATLAB Eigine, so this project also shows how to construct a [communication between Python and MATLAB](https://github.com/Varun-Haris/Vanishing-point-estimation-code).    
+This project shows how to achieve communication between Unity3D (C#) and Python code by using [ROSbridge](http://wiki.ros.org/rosbridge_suite) in Ubuntu. The source project is written by MATLAB Eigine, so this project also shows how to construct a [communication between Python and MATLAB](https://github.com/Varun-Haris/Vanishing-point-estimation-code).    
 
-ROSbridge provides a JSON API to ROS functionality for non-ROS programs. There are a variety of front ends that interface with rosbridge, including a WebSocket server for web browsers to interact with. Rosbridge_suite is a meta-package containing rosbridge, various front end packages for rosbridge like a WebSocket package, and helper packages.
+ROSbridge provides a JSON API to ROS functionality for non-ROS programs. There are a variety of front ends that interface with rosbridge, including a WebSocket server for web browsers to interact with. Rosbridge_suite is a meta-package containing rosbridge, various front end packages for rosbridge like a WebSocket package, and helper packages. ROSbridge is used based on [ROS#](https://github.com/siemens/ros-sharp).  
 
 ![ss1.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss1.png)
 
@@ -10,7 +10,7 @@ ROSbridge provides a JSON API to ROS functionality for non-ROS programs. There a
 2. [Unity3D](https://tecrobust.com/unity3d-for-ubuntu-how-to-install-unity3d-on-linux-ubuntu-18-04-lts-19-04-19-10/)   
 3. [ROS Kinetic/Melodic](http://wiki.ros.org/ROS/Installation)     
 4. [ROS#](https://github.com/siemens/ros-sharp)   
-5. [ROSBridge](http://wiki.ros.org/rosbridge_suite)   
+5. [ROSbridge](http://wiki.ros.org/rosbridge_suite)   
 6. [MATLAB code](https://github.com/wgchoi/eccv_indoor)   
 
 NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this code, because the MATLAB Engine with the latest version, i.e., R2020a, for Python supports Python version 2.7, 3.6, and 3.7, but the version of Python in Ubuntu 20.04 is 3.8. You can open the file with name of "setup.py" for checking. The setup.py file locates in the directory: /usr/local/MATLAB/R2020a/extern/engines/python/. To make MATLAB Eigine supports python, please configure it first by implementing "python/python2/python3 setup.py".    
