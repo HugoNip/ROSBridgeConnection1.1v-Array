@@ -57,6 +57,7 @@ open a new terminal (do not close it)
 
 
 ### Step7: Look for the TOPIC NAME in vptalker.py and fill it in Topic of Vp Data Subscriber 
+![ss8.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss8.png)
 
 ## Part3: Starting communication
 ### Step1: RUN ROS NODE:
