@@ -1,5 +1,5 @@
 # Introduction
-This project shows how to achieve communication between Unity3D (C#) and Python code by using [ROS#](https://github.com/siemens/ros-sharp). The source project is written by MATLAB Eigine, so this project also shows how to construct a [communication between Python and MATLAB](https://github.com/Varun-Haris/Vanishing-point-estimation-code).    
+This project shows how to achieve communication between Unity3D (C#) and Python code by using [ROS#](https://github.com/siemens/ros-sharp) in Ubuntu. The source project is written by MATLAB Eigine, so this project also shows how to construct a [communication between Python and MATLAB](https://github.com/Varun-Haris/Vanishing-point-estimation-code).    
 
 ![ss1.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss1.png)
 
@@ -25,7 +25,5 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 ## Part3: Starting detection
 
 # Reference
-[scripts source](https://mega.nz/#!dsQ01CYa!llVkuQ-JhW9SlOwNBHMlKuv215Mks-DX1BO2g8hqdsg)  
-[tutorial source](https://www.youtube.com/watch?v=lVa_bb0UFMs&ab_channel=bryansgue)  
-[ROS#](https://github.com/siemens/ros-sharp)  
-[ROSBridge](http://wiki.ros.org/rosbridge_suite)  
+[C# Script Templates](https://mega.nz/#!dsQ01CYa!llVkuQ-JhW9SlOwNBHMlKuv215Mks-DX1BO2g8hqdsg)    
+[Tutorial](https://www.youtube.com/watch?v=lVa_bb0UFMs&ab_channel=bryansgue)    
