@@ -9,12 +9,12 @@ def vptalker():
     eng = matlab.engine.start_matlab()
     codeDir = "/path/to/MATLAB/Code/UIUC_Varsha/SpatialLayout/spatiallayoutcode/"
     imgDir = "/path/to/image/data/" # Image name: img1.jpg, img2.jpg, img3.jpg, img4.jpg, ...
-    workDir = "/data/KProject/eccv_indoor-master/vanishingPoint/"
+    workDir = "/path/to/result/storage/path/vanishingPoint/"
 
     ## Start ROS node
     rospy.init_node('vanishingPoint', anonymous=True)
-    pub = rospy.Publisher("vpchatter", Float64MultiArray, queue_size=10)
-    r = rospy.Rate(10) # 10hz
+    pub = rospy.Publisher("topicvp", Float64MultiArray, queue_size=10) # TOPIC NAME
+    r = rospy.Rate(10)
 
     ## Adding the path into the python interpreter
     eng.addpath(codeDir, nargout=0)
