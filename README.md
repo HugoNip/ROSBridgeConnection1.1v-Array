@@ -1,5 +1,5 @@
 # Introduction
-This project is used to achieve the communication between Unity3D (C#) and Python code by using [ROS#](https://github.com/siemens/ros-sharp). The source project is written by MATLAB Eigine, so there is also a [communication between Python and MATLAB](https://github.com/Varun-Haris/Vanishing-point-estimation-code).    
+This project shows how to achieve communication between Unity3D (C#) and Python code by using [ROS#](https://github.com/siemens/ros-sharp). The source project is written by MATLAB Eigine, so this project also shows how to construct a [communication between Python and MATLAB](https://github.com/Varun-Haris/Vanishing-point-estimation-code).    
 
 ![ss1.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss1.png)
 
