@@ -1,7 +1,3 @@
-/**
- * created by Guang-Yu Nie
- */
-
 using UnityEngine;
 
 namespace RosSharp.RosBridgeClient
