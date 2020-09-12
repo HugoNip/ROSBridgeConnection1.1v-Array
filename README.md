@@ -38,7 +38,7 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 ### Step2: Add [RosSharp](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets) into Unity3D Assets directory
 ![ss4.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss4.png)
 
-#### Check whether or not the ROS Bridge Client has added into Unity3D
+#### ROS Bridge Client has added into Unity3D successfully
 ![ss17.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss17.png)
 
 ### Step4: Move VpDataSubscriber.cs into [RosCommuncation](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation) directory
