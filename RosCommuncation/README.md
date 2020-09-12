@@ -2,14 +2,14 @@
 [C# Script Templates](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation)    
 [rbcpp](https://github.com/juliangaal/rbcpp)
 
-# Status: a relative early development (You can try others by yourself)
+# Status: early development (You can try others by yourself)
 ### ROS Services
 - [x] Support for basic ROS services
 
 Implement your own serializer (class to json) and deserializer (json to class) for more complex use cases
 
 ### Publisher, Subscriber
-All messages that are checked below can be used already. Examples can be found [here](test/full_test.cpp)
+All messages that are checked below can be used already. Examples can be found [here](https://github.com/juliangaal/rbcpp/blob/master/test/src/full_test.cxx)
 
 | Type           | Messages | Subscriber Status | Publisher Status |
 |----------------|----------------|----------------|----------------|
