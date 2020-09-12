@@ -36,6 +36,7 @@ git clone https://github.com/siemens/ros-sharp.git
 ```
 
 ### Step3: Add [RosSharp](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets) into Unity3D Assets directory
+![ss4.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss4.png)
 
 ### Step4: Move VpDataSubscriber.cs into [RosCommuncation](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation) directory
 ### Step5: Add components Ros Connector and Vp Data Subscriber for RosConnector4Unity3D 
