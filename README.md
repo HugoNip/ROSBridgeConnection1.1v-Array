@@ -27,7 +27,7 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 ```
 ![ss11.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss11.png)
 
-### Step3: Change path for .py file
+### Step3: Change paths in the .py file
 ![ss12.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss12.png)
 
 ## Part2: Unity3D Node as a subscriber
