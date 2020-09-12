@@ -67,7 +67,7 @@ open a new terminal (do not close it)
 ![ss9.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss9.png)
 
 
-### Step6: Look for the TOPIC NAME in vptalker.py and fill it in Topic of Vp Data Subscriber 
+### Step6: Look for the TOPIC NAME in .py file for the Topic of Vp Data Subscriber 
 ![ss8.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss8.png)
 
 ## Part3: Starting communication
