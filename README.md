@@ -21,10 +21,11 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 ~$ cd ~/catkin_ws
 ~$ catkin_make
 ```
-### Step2: Move the .py file into src directory
+### Step2: Move the .py file into src directory and change the Permissions
 ```
 ~$ sudo mv /path/to/file/vptalker.py /path/to/catkin_ws/src/test_tutorial/src/
 ```
+![ss11.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss11.png)
 
 ## Part2: Unity3D Node as a subscriber
 ### Step1: Create a new Unity3D Scene, and create the RosConnector4Unity3D (empty GameObject)
