@@ -21,8 +21,10 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 ~$ cd ~/catkin_ws
 ~$ catkin_make
 ```
-### Step2: Add files into directory
-
+### Step2: Move the .py file into src directory
+```
+~$ sudo mv /path/to/file/vptalker.py /path/to/catkin_ws/src/test_tutorial/src/
+```
 
 ## Part2: Unity3D scene
 
