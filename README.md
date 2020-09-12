@@ -86,4 +86,5 @@ rosrun test_tutorial vptalker.py
 ![ss14.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss14.png)
 
 # Reference
-[Tutorial](https://www.youtube.com/watch?v=lVa_bb0UFMs&ab_channel=bryansgue)    
+[Tutorial](https://www.youtube.com/watch?v=lVa_bb0UFMs&ab_channel=bryansgue)     
+[Similar Projects](https://github.com/HugoNip/ROSBridgeConnection1.0v-Pose)    
