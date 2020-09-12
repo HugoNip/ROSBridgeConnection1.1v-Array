@@ -53,7 +53,7 @@ open a new terminal (do not close it)
 ~$ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
 #### Ros Bridge Server Url: localhost (ROS_MASTER_URI=http://localhost:11311)  
-![ss2.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss2.png)
+![ss9.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss9.png)
 
 
 ### Step7: Look for the TOPIC NAME in vptalker.py and fill it in Topic of Vp Data Subscriber 
