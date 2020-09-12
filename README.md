@@ -14,13 +14,17 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 
 # Configuration
 ## Part1: ROS workspace
-### Step1: Create a new package in catkin workspace
-
+### Step1: [Create a new package](http://wiki.ros.org/ROS/Tutorials/CreatingPackage) in catkin workspace
+```
+~$ cd ~/catkin_ws/src
+~$ catkin_create_pkg test_tutorial std_msgs rospy roscpp
+~$ cd ~/catkin_ws
+~$ catkin_make
+```
 ### Step2: Add files into directory
 
-### Step3: 
 
-## Part2: Unity3D
+## Part2: Unity3D scene
 
 ## Part3: Starting detection
 
