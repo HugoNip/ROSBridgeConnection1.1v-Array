@@ -2,7 +2,7 @@
 [C# Script Templates](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation)    
 [rbcpp](https://github.com/juliangaal/rbcpp)
 
-# Status: very early development
+# Status: a relative early development (You can try others by yourself)
 ### ROS Services
 - [x] Support for basic ROS services
 
