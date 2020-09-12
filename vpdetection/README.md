@@ -16,7 +16,7 @@ Using rqt_graph:
 #Run WEB socket
 ~$ roslaunch rosbridge_server rosbridge_websocket.launch
 
-#EDITAR bashrc
+EDITAR bashrc
 ~$ gedit ~/.bashrc
 ~$ source ~/.bashrc
 ```
