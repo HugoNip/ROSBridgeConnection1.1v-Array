@@ -5,10 +5,10 @@ This project shows how to achieve communication between Unity3D (C#) and Python 
 
 # Requirements
 1. python2/3   
-2. MATLAB    
+2. [Unity3D](https://tecrobust.com/unity3d-for-ubuntu-how-to-install-unity3d-on-linux-ubuntu-18-04-lts-19-04-19-10/)   
 3. [ROS Kinetic/Melodic](http://wiki.ros.org/ROS/Installation)     
-4. [Unity3D](https://tecrobust.com/unity3d-for-ubuntu-how-to-install-unity3d-on-linux-ubuntu-18-04-lts-19-04-19-10/)   
-5. [ROSBridge](http://wiki.ros.org/rosbridge_suite)   
+4. [ROSBridge](http://wiki.ros.org/rosbridge_suite)   
+5. [MATLAB code](https://github.com/wgchoi/eccv_indoor)   
 
 NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this code, because the MATLAB Engine with the latest version, i.e., R2020a, for Python supports Python version 2.7, 3.6, and 3.7, but the version of Python in Ubuntu 20.04 is 3.8. You can open the file with name of "setup.py" for checking. The setup.py file locates in the directory: /usr/local/MATLAB/R2020a/extern/engines/python/. To make MATLAB Eigine supports python, please configure it first by implementing "python/python2/python3 setup.py".    
 
