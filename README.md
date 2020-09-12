@@ -31,7 +31,7 @@ NOTE: ROS Noetic and Ubuntu 20.04 may be not one of the best way to run this cod
 ### Step2: Get the [ROS#](https://github.com/siemens/ros-sharp)
 ### Step3: Add [RosSharp](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets) into Unity3D Assets directory
 ### Step4: Move VpDataSubscriber.cs into [RosCommuncation](https://github.com/siemens/ros-sharp/tree/master/Unity3D/Assets/RosSharp/Scripts/RosBridgeClient/RosCommuncation) directory
-### Step5: Add components Ros Connector (Script) and Vp Data Subscriber (Script) for RosConnector4Unity3D 
+### Step5: Add components Ros Connector and Vp Data Subscriber for RosConnector4Unity3D 
 ### Step6: Run WEB socket to get the Ros Bridge Server Url for Ros Connector
 ```
 open a new terminal
