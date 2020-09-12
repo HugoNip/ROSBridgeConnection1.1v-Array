@@ -42,6 +42,8 @@ git clone https://github.com/siemens/ros-sharp.git
 ![ss5.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss5.png)
 
 ### Step5: Add components Ros Connector and Vp Data Subscriber for RosConnector4Unity3D 
+![ss6.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss6.png)
+
 ### Step6: Run WEB socket to get the Ros Bridge Server Url for Ros Connector
 ```
 open a new terminal (do not close it)
