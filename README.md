@@ -67,6 +67,7 @@ open a new terminal (do not close it)
 ~$ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
 #### Ros Bridge Server Url: localhost (ROS_MASTER_URI=http://localhost:11311)  
+**NOTE: *11311* must be replaced with *9090***    
 ![ss9.png](https://github.com/HugoNip/ROSBridgeConnection1.1v-Array/blob/master/Figure/ss9.png)
 
 
