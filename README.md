@@ -92,4 +92,5 @@ rosrun test_tutorial vptalker.py
 [Similar YouTube Tutorial](https://www.youtube.com/watch?v=lVa_bb0UFMs&ab_channel=bryansgue)     
 [Similar Project](https://github.com/HugoNip/ROSBridgeConnection1.0v-Pose)    
 [How to publish to a TOPIC](http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers)    
+[How to creat a ROS msg and srv](http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv#Creating_a_msg)    
 
